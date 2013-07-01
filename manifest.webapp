@@ -1,0 +1,11 @@
+{
+  "name": "Hello World",
+  "description": "Jack's test Hello World app",
+  "version": "1.0",
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "Jack Franklin",
+    "url": "http://jackfranklin.co.uk"
+  },
+  "permissions": {}
+}
