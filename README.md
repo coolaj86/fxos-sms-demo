@@ -11,7 +11,7 @@ Notes
   * Tested working in Firefox OS 1.3.0 on the ZTE Open C with a T-Mobile SIM.
   * Only `manifest.webapp.type == certified` apps get access to SMS APIs.
   * The API is buggy / incomplete and Mozilla's documentation doesn't always match their implementation
-  * It seems that you can only receive SMS notifications after interacting with the messaging API
+  * It seems that the `received` event listener only works if you've first interacting with the messaging API in some other way
   * I don't know if you can capture the SMS event to `stopPropagation()` up to OS level.
 
 Possible Errors
