@@ -1,11 +1,22 @@
 {
-  "name": "Hello World",
-  "description": "Jack's test Hello World app",
+  "name": "SMS Demo",
+  "description": "Test Sending and Receiving SMS",
   "version": "1.0",
+  "type": "certified",
   "launch_path": "/index.html",
   "developer": {
-    "name": "Jack Franklin",
-    "url": "http://jackfranklin.co.uk"
+    "name": "AJ ONeal",
+    "url": "http://coolaj86.com"
   },
-  "permissions": {}
+  "permissions": {
+    "sms": {
+      "description": "You can send and receive text messages in this app."
+    },
+    "alarms": {
+      "description": "We'll periodically manually check for new messages since message API is buggy."
+    }
+  },
+  "messages": [
+    { "alarm": "/index.html" }
+  ]
 }
