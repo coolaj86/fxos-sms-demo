@@ -1,18 +1,17 @@
-{
-  "name": "SMS Demo",
-  "description": "Test Sending and Receiving SMS",
-  "version": "1.0",
-  "type": "certified",
-  "launch_path": "/index.html",
-  "developer": {
-    "name": "AJ ONeal",
-    "url": "http://coolaj86.com"
-  },
-  "permissions": {
+{ "name": "SMS Demo"
+, "description": "Test Sending and Receiving SMS"
+, "version": "1.0"
+, "type": "certified"
+, "launch_path": "/index.html"
+, "developer": {
+    "name": "AJ ONeal"
+  , "url": "http://coolaj86.com"
+  }
+, "permissions": {
     "sms": {
       "description": "You can send and receive text messages in this app."
-    },
-    "alarms": {
+    }
+  , "alarms": {
       "description": "We'll periodically manually check for new messages since message API is buggy."
     }
   },

@@ -1,0 +1,33 @@
+html
+  head
+    title SMS Demo
+    meta(name="viewport" content="user-scalable=0, initial-scale=1.0")
+    script(src="js/jquery.min.js" type="text/javascript" charset="utf-8")
+    script(src="js/pouchdb-2.2.3.min.js" type="text/javascript" charset="utf-8")
+    script(src="js/app.js" type="text/javascript" charset="utf-8")
+    link(href="css/bootstrap.min.css" rel="stylesheet")
+  body
+    .container
+      .row
+        .col-xs-12
+          h1 AJ's SMS Demo
+          form.form-horizontal#sms-form
+            fieldset
+              .col-xs-12
+                label.control-label Phone
+                input.form-control(type="tel", name="phone", value="555-555-1234")
+              .col-xs-12
+                label.control-label Message
+                textarea.form-control(name="msg") Testing 1, 2, 3. Be sure to send me a message back!
+              .col-xs-12
+                button.btn.btn-primary(type="submit") Send SMS
+      .row
+        .col-xs-12
+          h3 Alarms
+          ul#alarms
+
+      .row
+        .col-xs-12
+          h3 Response
+          #response
+            | response will go here
